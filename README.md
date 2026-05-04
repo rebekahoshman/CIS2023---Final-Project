@@ -10,8 +10,13 @@ chmod +x count.sh
 ## Commands Used
 
 git add count.sh
+
 git commit -m "Add count script"
+
 git push origin main
+
 ./count.sh
+
 git log --oneline
+
 git status
